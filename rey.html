@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is My Portfolio</title>
+    <link rel="stylesheet" href="rey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+   
+</head>
+
+<body class="body2">
+    <audio controls autoplay style="display: none;">
+        <source src="Enchanted__Taylor_s_Version_.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.    
+    </audio> 
+    <header>
+        <div class="container">
+            <br><br>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('about')">Resume</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main id="home" class="container">
+        <h1>Speak Now! <span><h5 class="tv">Taloy's Version</h5></span></h1>
+    </main>
+
+    <main id="about" class="container" style="display: none;">
+        <br><br><br>
+        <img class="pic1" src="1.jpg" alt="Rey" class="img">
+    </main>
+
+    <main id="projects" class="container" style="display: none; cursor: pointer;">
+        <br><br>
+        <div class="project">
+            <h3><a href="https://github.com/taloy2/IT21C-PROJECTS/tree/main/src"><img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/folder-invoices--v1.png" alt="folder-invoices--v1"/></a></h3>
+            <h3>Projects</h3>
+        </div>
+    </main>
+    <script src="app.js"></script> 
+</body>
+
+</html>
